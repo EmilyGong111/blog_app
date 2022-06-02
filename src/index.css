@@ -138,8 +138,6 @@ body {
 }
 
 .post {
-  display: flex;
-  align-items: center;
   margin-top: 1rem;
   padding-bottom: 1rem;
   border-bottom: 1px solid lightgray;
@@ -169,6 +167,7 @@ body {
 }
 
 .postBody {
+  margin-top: 1rem;
 }
 
 .newPostForm {
@@ -219,9 +218,16 @@ body {
   border-radius: 0.25rem;
   padding: 0.5rem;
   font-size: 1rem;
-  background-color: red;
   color: #fff;
   cursor: pointer;
+  border: none;
+}
+.deleteButton {
+  background-color: red;
+}
+.editButton {
+  background-color: #333;
+  margin-right: 1rem;
 }
 
 .statusMsg {
